@@ -1,0 +1,8 @@
+{
+    "name": "lzaplata/pricelists-plugin",
+    "type": "october-plugin",
+    "description": "Plugin for pricelists management",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
