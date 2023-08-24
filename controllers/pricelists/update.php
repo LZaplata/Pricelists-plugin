@@ -1,6 +1,11 @@
 <?php Block::put('breadcrumb') ?>
     <ul>
-        <li><a href="<?= Backend::url('lzaplata/pricelists/pricelists') ?>">Pricelists</a></li>
+        <li>
+            <a href="<?= Backend::url('lzaplata/pricelists/pricelists') ?>">
+                <?= e(trans('lzaplata.pricelists::lang.plugin.name')) ?>
+            </a>
+        </li>
+
         <li><?= e($this->pageTitle) ?></li>
     </ul>
 <?php Block::endPut() ?>

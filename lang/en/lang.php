@@ -13,6 +13,7 @@
             ],
             'items' => [
                 'label' => 'Items',
+                'prompt' => 'Add new item',
                 'form' => [
                     'field' => [
                         'title' => [

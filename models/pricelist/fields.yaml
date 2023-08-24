@@ -15,7 +15,7 @@ fields:
         type: text
     items:
         label: 'lzaplata.pricelists::lang.pricelist.field.items.label'
-        prompt: 'Add new item'
+        prompt: 'lzaplata.pricelists::lang.pricelist.field.items.prompt'
         displayMode: accordion
         showReorder: 1
         showDuplicate: 1
