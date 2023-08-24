@@ -1,0 +1,43 @@
+fields:
+    name:
+        label: 'lzaplata.pricelists::lang.pricelist.field.name.label'
+        span: left
+        required: 1
+        type: text
+    slug:
+        label: 'lzaplata.pricelists::lang.pricelist.field.slug.label'
+        span: right
+        required: 1
+        defaultFrom: name
+        preset:
+            field: name
+            type: slug
+        type: text
+    items:
+        label: 'lzaplata.pricelists::lang.pricelist.field.items.label'
+        prompt: 'Add new item'
+        displayMode: accordion
+        showReorder: 1
+        showDuplicate: 1
+        span: full
+        type: repeater
+        itemsExpanded: false
+        form:
+            fields:
+                title:
+                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.title.label'
+                    span: full
+                    required: 1
+                    type: text
+                price:
+                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price.label'
+                    span: left
+                    required: 1
+                    min: '0'
+                    type: number
+                price_vat:
+                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price_vat.label'
+                    span: right
+                    required: 1
+                    min: '0'
+                    type: number

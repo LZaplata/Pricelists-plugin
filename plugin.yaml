@@ -1,0 +1,17 @@
+plugin:
+    name: 'lzaplata.pricelists::lang.plugin.name'
+    description: 'lzaplata.pricelists::lang.plugin.description'
+    author: 'Lukáš Záplata'
+    icon: oc-icon-dollar
+    homepage: ''
+permissions:
+    lzaplata.pricelists.default:
+        tab: 'lzaplata.pricelists::lang.plugin.name'
+        label: 'lzaplata.pricelists::lang.privileges.default'
+navigation:
+    main-menu-item:
+        label: 'lzaplata.pricelists::lang.plugin.name'
+        url: lzaplata/pricelists/pricelists
+        icon: icon-dollar
+        permissions:
+            - lzaplata.pricelists.default

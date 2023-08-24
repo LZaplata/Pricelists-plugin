@@ -1,0 +1,16 @@
+name: Pricelists
+modelClass: LZaplata\Pricelists\Models\Pricelist
+form: $/lzaplata/pricelists/models/pricelist/fields.yaml
+defaultRedirect: lzaplata/pricelists/pricelists
+create:
+    title: 'lzaplata.pricelists::lang.pricelist.create.title'
+    redirect: 'lzaplata/pricelists/pricelists/update/:id'
+    redirectClose: lzaplata/pricelists/pricelists
+    flashSave: 'lzaplata.pricelists::lang.pricelist.create.flash'
+update:
+    title: 'lzaplata.pricelists::lang.pricelist.update.title'
+    redirect: lzaplata/pricelists/pricelists
+    redirectClose: lzaplata/pricelists/pricelists
+    flashSave: 'lzaplata.pricelists::lang.pricelist.update.flash.update'
+    flashDelete: 'lzaplata.pricelists::lang.pricelist.update.flash.delete'
+preview: {  }

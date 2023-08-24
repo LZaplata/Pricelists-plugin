@@ -1,0 +1,10 @@
+columns:
+    name:
+        label: 'lzaplata.pricelists::lang.pricelist.column.name.label'
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'lzaplata.pricelists::lang.pricelist.column.created_at.label'
+        type: datetime
+        sortable: true
