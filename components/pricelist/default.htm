@@ -6,7 +6,7 @@
     </h2>
 
     <div class="row g-0">
-        <div class="col-6 p-2 border-bottom border-1 border-black px-md-3 fw-bold col-sm-8 col-xl-10">
+        <div class="col-6 p-2 border-bottom border-1 border-black px-md-3 fw-bold col-sm-8 col-xl-8">
 
         </div>
 
@@ -17,11 +17,15 @@
         <div class="col-3 p-2 border-bottom border-1 border-black px-md-3 fw-bold col-sm-2 col-xl-1">
             s DPH
         </div>
+
+        <div class="col-3 p-2 border-bottom border-1 border-black px-md-3 fw-bold col-sm-2 col-xl-2">
+            textová
+        </div>
     </div>
 
     {% for item in pricelist.items %}
         <div class="row g-0">
-            <div class="col-6 p-2 border-bottom border-1 border-black px-md-3 col-sm-8 col-xl-10">
+            <div class="col-6 p-2 border-bottom border-1 border-black px-md-3 col-sm-8 col-xl-8">
                 {{ item.title }}
             </div>
 
@@ -31,6 +35,10 @@
 
             <div class="col-3 p-2 border-bottom border-1 border-black px-md-3 col-sm-2 col-xl-1">
                 {{ item.price_vat|number_format(0, ",", " ") }} Kč
+            </div>
+
+            <div class="col-3 p-2 border-bottom border-1 border-black px-md-3 col-sm-2 col-xl-2">
+                {{ item.price_text }}
             </div>
         </div>
     {% endfor %}

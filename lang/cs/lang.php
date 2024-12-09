@@ -23,10 +23,15 @@
                         'price' => [
                             'label' => 'Cena',
                             'message' => 'Položky Cena pole je povinné.',
+                            'message_int' => 'Položky Cena musí být číslo.',
                         ],
                         'price_vat' => [
                             'label' => 'Cena s DPH',
                             'message' => 'Položky Cena s DPH pole je povinné.',
+                            'message_int' => 'Položky Cena s DPH musí být číslo.',
+                        ],
+                        'price_text' => [
+                            'label' => 'Cena textová',
                         ],
                     ],
                 ],

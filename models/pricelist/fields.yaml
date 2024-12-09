@@ -32,12 +32,13 @@ fields:
                 price:
                     label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price.label'
                     span: left
-                    required: 1
                     min: '0'
                     type: number
                 price_vat:
                     label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price_vat.label'
                     span: right
-                    required: 1
                     min: '0'
                     type: number
+                price_text:
+                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price_text.label'
+                    span: left

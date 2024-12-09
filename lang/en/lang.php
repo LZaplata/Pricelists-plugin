@@ -23,10 +23,15 @@
                         'price' => [
                             'label' => 'Price',
                             'message' => 'The Items Price field is required.',
+                            'message_int' => 'The Items Price field have to be an integer.',
                         ],
                         'price_vat' => [
                             'label' => 'Price VAT',
                             'message' => 'The Items Price VAT field is required.',
+                            'message_int' => 'The Items Price VAT field have to be an integer.',
+                        ],
+                        'price_text' => [
+                            'label' => 'Price text',
                         ],
                     ],
                 ],
