@@ -5,3 +5,5 @@ v1.0.1:
     - 'Add price text to price list item'
 v1.1.0:
     - 'Prices customization to be more variable'
+v1.1.1:
+    - 'Prices input types fix'
