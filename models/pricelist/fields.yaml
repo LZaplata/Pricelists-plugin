@@ -29,16 +29,16 @@ fields:
                     span: full
                     required: 1
                     type: text
-                price:
-                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price.label'
+                price_1:
+                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price_1.label'
                     span: left
                     min: '0'
                     type: number
-                price_vat:
-                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price_vat.label'
+                price_2:
+                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price_2.label'
                     span: right
                     min: '0'
                     type: number
-                price_text:
-                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price_text.label'
+                price_3:
+                    label: 'lzaplata.pricelists::lang.pricelist.field.items.form.field.price_3.label'
                     span: left

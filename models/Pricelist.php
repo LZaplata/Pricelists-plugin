@@ -27,14 +27,13 @@ class Pricelist extends Model
         "name"              => "required",
         "slug"              => ["required", "regex:/^[a-z0-9\/\:_\-\*\[\]\+\?\|]*$/i", "unique:lzaplata_pricelists_pricelists,slug,NULL,id,deleted_at,NULL"],
         "items.*.title"     => "required",
-        "items.*.price"     => "nullable|integer",
-        "items.*.price_vat" => "nullable|integer",
+        "items.*.price_1"   => "nullable",
+        "items.*.price_2"   => "nullable",
+        "items.*.price_3"   => "nullable",
     ];
 
     public $customMessages = [
         "items.*.title.required"        => "lzaplata.pricelists::lang.pricelist.field.items.form.field.title.message",
-        "items.*.price.integer"         => "lzaplata.pricelists::lang.pricelist.field.items.form.field.price.message_int",
-        "items.*.price_vat.integer"     => "lzaplata.pricelists::lang.pricelist.field.items.form.field.price_vat.message_int",
     ];
 
     protected $jsonable = ["items"];

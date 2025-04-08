@@ -20,18 +20,14 @@
                             'label' => 'Title',
                             'message' => 'The Items Title field is required.',
                         ],
-                        'price' => [
-                            'label' => 'Price',
-                            'message' => 'The Items Price field is required.',
-                            'message_int' => 'The Items Price field have to be an integer.',
+                        'price_1' => [
+                            'label' => 'Price 1',
                         ],
-                        'price_vat' => [
-                            'label' => 'Price VAT',
-                            'message' => 'The Items Price VAT field is required.',
-                            'message_int' => 'The Items Price VAT field have to be an integer.',
+                        'price_2' => [
+                            'label' => 'Price 2',
                         ],
-                        'price_text' => [
-                            'label' => 'Price text',
+                        'price_3' => [
+                            'label' => 'Price 3',
                         ],
                     ],
                 ],
